@@ -13,6 +13,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRouterModule } from './/router.module';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { CreateComponent } from './create/create.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule, 
