@@ -1,4 +1,3 @@
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,19 +15,10 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-}
-
-nav{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-}
-a{
-    padding: 10px;
 }
