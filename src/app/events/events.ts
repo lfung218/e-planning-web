@@ -1,4 +1,4 @@
-export class Event {
+export class IEvent {
     id: number;
     event_name: string;
     event_desc: string;

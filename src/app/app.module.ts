@@ -15,6 +15,7 @@ import { AppRouterModule } from './/router.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CreateComponent } from './create/create.component';
 import { UsersComponent } from './users/users.component';
+import { EventsService } from './events/events.service';
 
 
 @NgModule({
@@ -37,7 +38,7 @@ import { UsersComponent } from './users/users.component';
     AppRouterModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [EventsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
